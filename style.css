@@ -1,0 +1,58 @@
+:root {
+  --color-bg: #f7f3ee;
+  --color-surface: #fffdfb;
+  --color-text: #4a4038;
+  --color-text-muted: #7a6f65;
+  --color-border: #e5ddd3;
+  --color-dark: #3e3530;
+  --color-accent: #c97b4a;
+  --color-accent-dark: #a85f36;
+  --color-accent-light: #e8a87c;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.site-nav {
+  background-color: var(--color-dark);
+}
+
+.site-header {
+  background-color: var(--color-accent-light);
+  color: var(--color-dark);
+}
+
+.site-footer {
+  background-color: var(--color-dark);
+  color: var(--color-bg);
+}
+
+.card-custom {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(62, 53, 48, 0.08);
+}
+
+.card-custom .card-text {
+  color: var(--color-text-muted);
+}
+
+.btn-warm {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.btn-warm:hover,
+.btn-warm:focus {
+  background-color: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+  color: #fff;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
